@@ -1,0 +1,30 @@
+.dashboard {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.user-details {
+    margin: 20px 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.user-details p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.logout-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #e60000;
+}

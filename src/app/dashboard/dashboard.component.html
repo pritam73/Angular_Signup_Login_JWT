@@ -1,0 +1,18 @@
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="card shadow-2-strong" style="border-radius: 5rem; border: none;">
+                <div class="card-body p-5 text-center">
+                    <h1>Welcome, {{ user.name || 'User' }}</h1>
+                    <div class="row">
+                        <p><strong>Email:</strong> {{ user.email }}</p>
+                        <p><strong>Mobile No:</strong> {{ user.mobileNo }}</p>
+                    </div>
+                    <div class="row">
+                        <button class="logout-button" (click)="logout()">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
